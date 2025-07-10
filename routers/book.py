@@ -5,7 +5,7 @@ from ..schemas import book as schemas
 from ..crud import book as crud
 from ..database import SessionLocal
 
-router = APIRouter(prefix="/products", tags=["products"])
+router = APIRouter(prefix="/books", tags=["books"])
 
 def get_db():
     db = SessionLocal()
